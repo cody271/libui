@@ -1,0 +1,9 @@
+build:
+        image: teaci/msys64
+        shell: mingw64
+        pull: true
+        commands:
+                - mkdir build
+                - cd build
+                - cmake .. -G "MinGW Makefiles"
+                - make tester examples
