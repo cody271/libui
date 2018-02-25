@@ -6,5 +6,5 @@ build:
                 - pacman -S --noconfirm --needed --noprogressbar cmake
                 - mkdir build
                 - cd build
-                - cmake .. -G "MinGW Makefiles"
+                - cmake .. -G "Unix Makefiles"
                 - make tester examples
