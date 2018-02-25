@@ -3,6 +3,7 @@ build:
         shell: mingw64
         pull: true
         commands:
+                - pacman -S --noconfirm --needed --noprogressbar cmake
                 - mkdir build
                 - cd build
                 - cmake .. -G "MinGW Makefiles"
