@@ -2,6 +2,7 @@
 
 This README is being written.<br>
 [![Build Status](https://travis-ci.org/andlabs/libui.svg)](https://travis-ci.org/andlabs/libui)
+[![Build Status](https://tea-ci.org/api/badges/cody271/libui/status.svg)](https://tea-ci.org/cody271/libui)
 
 ## Announcements
 
